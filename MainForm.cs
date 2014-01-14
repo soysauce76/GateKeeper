@@ -27,6 +27,7 @@ namespace GameGatekeeper
             if (e.Control && e.KeyCode.ToString() == "S")
             {
                 Functions.saveWork(this.titleTextBox.Rtf, this.richTextBox.Rtf, "Draft"); // hey look I added a line!
+                //hey look I added another line
                 //saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 //saveFileDialog1.FilterIndex = 1;
                 //saveFileDialog1.RestoreDirectory = true;
@@ -35,7 +36,6 @@ namespace GameGatekeeper
                 //    // When the user presses both the 'Alt' key and 'F' key,
                 //    // KeyPreview is set to False, and a message appears.
                 //    // This message is only displayed when KeyPreview is set to False.
-
                 //    if (richTextBox.TextLength == 0)
                 //    {
                 //        MessageBox.Show("You don't have anything to save!  Save aborted.");
