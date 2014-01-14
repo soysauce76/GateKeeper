@@ -26,7 +26,7 @@ namespace GameGatekeeper
         {
             if (e.Control && e.KeyCode.ToString() == "S")
             {
-                Functions.saveWork(this.titleTextBox.Rtf, this.richTextBox.Rtf, "Draft");
+                Functions.saveWork(this.titleTextBox.Rtf, this.richTextBox.Rtf, "Draft"); // hey look I added a line!
                 //saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 //saveFileDialog1.FilterIndex = 1;
                 //saveFileDialog1.RestoreDirectory = true;
